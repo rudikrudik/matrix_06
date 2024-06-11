@@ -29,7 +29,7 @@ int main() {
     std::cout << std::endl;
 
     // Вывод количества занятых ячеек
-    std::cout << "Matrix busy cells: " << main_matrix.size() << std::endl;
+    std::cout << "Matrix userd cells: " << main_matrix.size() << std::endl;
     std::cout << std::endl;
 
     // Вывод ячейки с номером и значением
