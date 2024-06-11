@@ -16,7 +16,7 @@ if (MSVC)
         )
 else ()
         target_compile_options(matrix PRIVATE
-                -Wall -Wextra -pedantic -Werror
+                -Wall -Wextra
         )
 endif()
 
