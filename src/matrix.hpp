@@ -79,11 +79,12 @@ public:
         for (const auto&[key, value]:elements) {
             if (i == elem_num) {
                 return std::make_tuple(key, T(*value));
-            } else {
+            }
+            else {
                 i++;
             }
         }
-    }
+    };
 
 private:
     std::map<int, std::shared_ptr<MatrixElement>> elements;
